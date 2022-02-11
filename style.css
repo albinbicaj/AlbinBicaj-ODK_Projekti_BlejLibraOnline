@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text:wght@700&display=swap');
+
+@media (max-width: 576px)
+{
+    .iconHeadings
+    {
+        font-size: 15px;
+    }
+}
+
+
+/* Navigation */
+.navbar-brand h1
+{
+    font-family: 'Courgette', cursive;
+    color: #4981b3!important;
+}
+
+.navbar
+{
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    box-shadow: 0 .5rem .5rem rgba(0,0,0,.2);
+    z-index: 1;
+}
+
+.nav-item
+{
+    padding: .5rem;
+    font-style: italic;
+}
+
+.nav-link
+{
+    color: #4981b3!important;
+}
+
+.nav-link.active,
+.nav-link:hover
+{
+    color: #1ea1ff!important;
+}
+
+.navbar-link h2
+{
+    font-family: 'Noticia Text', serif;
+    color: #4981b3;
+    font-style: italic;
+    display: flex;
+}
+/* End Navigation */
+
+/* Carousel */
+#client-testimonial-carousel
+{
+    min-height: 200px;
+}
+
+#carousel
+{
+    background-color: #4981b3!important;
+}
+/* End Carousel */
+
+/* Sections */
+.sections
+{
+    color: #4981b3!important;
+    font-family: 'Courgette', cursive;
+}
+
+.links
+{
+    background-color: #4981b3;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Lemon', cursive;
+    font-size: 1.15rem;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    border-radius: 20px;
+}
+
+.button
+{
+    padding: 5px 40px!important;
+    background-color: #4981b3!important;
+    border-radius: 10px!important;
+    color: white!important;
+}
+
+#icons
+{
+    color: #4981b3;
+}
+
+.info h2
+{
+    color: #4981b3;
+    font-family: 'Courgette', cursive;
+}
+
+#contact
+{
+    color: #4981b3;
+}
+
+/* End Sections */
+
+/* Footer */
+footer
+{
+    background-color: #4981b3;
+}
+
+footer a,h1
+{
+    font-family: 'Courgette', cursive;
+    color: white;
+    text-decoration: none;
+}
+
+ul.social
+{
+    list-style-type: none;
+    display: flex;
+    max-width: 26rem;
+    margin: 0 auto;
+    padding: 0;
+}
+
+ul.social li
+{
+    margin: 0 auto;
+    font-size: 2.3rem;
+}
+
+/* End Footer */
+
+/* Scroll Top */
+#myBtn
+{
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: #4981b3;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+/* End Scroll Top */
